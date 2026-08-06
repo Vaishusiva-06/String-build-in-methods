@@ -1,0 +1,18 @@
+indexOf()
+
+Description: Returns first occurrence index.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        String s="Java";
+        System.out.println(s.indexOf('a'));
+    }
+}
+
+Output:
+
+1
+
+=== Code Execution Successful ===
