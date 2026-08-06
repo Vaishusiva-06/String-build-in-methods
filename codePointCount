@@ -1,0 +1,21 @@
+codePointCount()
+
+Description: The codePointCount method returns the number of Unicode code points in the specified range of a string.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        String s = "Hello";
+
+        int count = s.codePointCount(0, s.length());
+
+        System.out.println("Code Point Count: " + count);
+    }
+}
+
+Output:
+
+Code Point Count: 5
+
+=== Code Execution Successful ===
