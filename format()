@@ -1,0 +1,18 @@
+format()
+
+Description:It return a formatted string using the specified local format string and arguments.
+
+Program:
+
+public class FormatExample {
+    public static void main(String[] args) {
+        String formatted = String.format("Name: %s, Age: %d", "Alice", 25);
+        System.out.println(formatted);
+    }
+}
+
+Output:
+
+Name: Alice, Age: 25
+
+=== Code Execution Successful ===
