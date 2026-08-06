@@ -1,0 +1,17 @@
+join()
+
+Description: Joins multiple strings.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(String.join("-", "A","B","C"));
+    }
+}
+
+Output:
+
+A-B-C
+
+=== Code Execution Successful ===
