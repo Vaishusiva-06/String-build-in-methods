@@ -1,0 +1,18 @@
+endsWith()
+
+Description: Checks if the string ends with given text.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        String s="Programming";
+        System.out.println(s.endsWith("ing"));
+    }
+}
+
+Output:
+
+true
+
+=== Code Execution Successful ===
