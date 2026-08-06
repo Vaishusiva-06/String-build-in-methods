@@ -1,0 +1,20 @@
+getChars()
+
+Description: Copies characters into an array.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        String s="Hello";
+        char[] c=new char[5];
+        s.getChars(0,5,c,0);
+        System.out.println(c);
+    }
+}
+
+Output:
+
+Hello
+
+=== Code Execution Successful ===
