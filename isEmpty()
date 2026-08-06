@@ -1,0 +1,18 @@
+isEmpty()
+
+Description: Checks if string is empty.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        String s="";
+        System.out.println(s.isEmpty());
+    }
+}
+
+Output:
+
+true
+
+=== Code Execution Successful ===
