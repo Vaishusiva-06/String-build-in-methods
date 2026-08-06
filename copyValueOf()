@@ -1,0 +1,19 @@
+copyValueOf() 
+
+Definition:The copyValueOf() method is a static method of the String class. It is used to create a String from a character array.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        char[] ch = {'J', 'A', 'V', 'A'};
+        String s = String.copyValueOf(ch);
+        System.out.println(s);
+    }
+}
+
+Output:
+
+JAVA
+
+=== Code Execution Successful ===
